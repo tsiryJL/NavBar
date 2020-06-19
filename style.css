@@ -1,0 +1,59 @@
+a.nav-link:focus{
+    color: #FF4567!important;
+}
+a.nav-link{
+ /* Réserver une expérience */
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #F4F4F4 /*Mettre !important*/;
+margin-right: 1em;
+}
+
+a.nav-link.active{
+    color:#FF4567!important;
+}
+a.nav-link:hover{
+    color:#FF4567!important;
+}
+
+@media (min-width: 991px) {
+    .navbar{
+        padding-right:5em!important;
+    }
+}
+
+/*Version Mobile*/
+@media (max-width: 991px) {
+    .navbar{
+        position: fixed!important;
+        bottom:0px;
+        background: linear-gradient(180.98deg, #FF9B77 3.56%, #F5AB65 33.87%, #ECB955 80.09%, #DDD03C 102.18%);;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        justify-content: space-around!important;
+    }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  path:hover {
+    fill: #FF4567;
+  }
+ 
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    color: #FF4567;
+  }
+}
+

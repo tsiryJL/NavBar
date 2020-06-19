@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUND'R</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="myDIV" class="navbar navbar-expand-lg navbar-light float-right"> <!-- create Add and remove this class on JS-->
+        <a class="navbar-brand" href="#"></a>
+        <div id="myToggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           
+          <div class="navbar">
+            <a href="#home" class="active"><svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.85154 11.3334L14.8533 3.3316L22.8551 11.3334H22.8535V24.6667H6.85345V11.3334H6.85154ZM4.18679 13.9981L2.21758 15.9673L0.333313 14.0831L12.9693 1.44709C14.0098 0.406573 15.6968 0.406573 16.7373 1.44709L29.3733 14.0831L27.489 15.9673L25.5201 13.9984V24.6667C25.5201 26.1395 24.3262 27.3334 22.8535 27.3334H6.85345C5.38069 27.3334 4.18679 26.1395 4.18679 24.6667V13.9981Z" fill="#F4F4F4"/>
+                </svg>
+            </a>
+            <a href="#news"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M28 6C28 5.46957 27.7893 4.96086 27.4142 4.58579C27.0391 4.21071 26.5304 4 26 4H22V2H20V4H12V2H10V4H6C5.46957 4 4.96086 4.21071 4.58579 4.58579C4.21071 4.96086 4 5.46957 4 6V26C4 26.5304 4.21071 27.0391 4.58579 27.4142C4.96086 27.7893 5.46957 28 6 28H10V26H6V6H10V8H12V6H20V8H22V6H26V12H28V6Z" fill="#F3F3F3"/>
+                <path d="M21 15L23.549 19.938L29 20.729L25 24.573L26 30L21 27.438L16 30L17 24.573L13 20.729L18.6 19.938L21 15Z" fill="#F3F3F3"/>
+                </svg>
+            </a>
+            <a href="#contact"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 30.6667C7.89986 30.6667 1.33337 24.1002 1.33337 16C1.33337 7.89982 7.89986 1.33333 16 1.33333C24.1002 1.33333 30.6667 7.89982 30.6667 16C30.6667 24.1002 24.1002 30.6667 16 30.6667ZM16 28C22.6275 28 28 22.6274 28 16C28 9.37258 22.6275 3.99999 16 3.99999C9.37262 3.99999 4.00004 9.37258 4.00004 16C4.00004 22.6274 9.37262 28 16 28ZM22.6667 14.6667H17.3334V9.33333H14.6667V14.6667H9.33337V17.3333H14.6667V22.6667H17.3334V17.3333H22.6667V14.6667Z" fill="#F4F4F4"/>
+                </svg>
+            </a>
+            <a href="#contact"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16 2.66667C8.63996 2.66667 2.66663 8.64001 2.66663 16C2.66663 23.36 8.63996 29.3333 16 29.3333C23.36 29.3333 29.3333 23.36 29.3333 16C29.3333 8.64001 23.36 2.66667 16 2.66667ZM9.42669 24.3733C10 23.1733 13.4934 22 16 22C18.5067 22 22.0134 23.1733 22.5734 24.3733C20.76 25.8133 18.48 26.6667 16 26.6667C13.52 26.6667 11.24 25.8133 9.42669 24.3733ZM16 19.3333C17.9466 19.3333 22.5733 20.12 24.48 22.44C25.84 20.6533 26.6666 18.4267 26.6666 16C26.6666 10.12 21.88 5.33334 16 5.33334C10.12 5.33334 5.33329 10.12 5.33329 16C5.33329 18.4267 6.15996 20.6533 7.51996 22.44C9.42663 20.12 14.0533 19.3333 16 19.3333ZM16 8C13.4133 8 11.3333 10.08 11.3333 12.6667C11.3333 15.2533 13.4133 17.3333 16 17.3333C18.5866 17.3333 20.6666 15.2533 20.6666 12.6667C20.6666 10.08 18.5866 8 16 8ZM14 12.6667C14 13.7733 14.8933 14.6667 16 14.6667C17.1066 14.6667 18 13.7733 18 12.6667C18 11.56 17.1066 10.6667 16 10.6667C14.8933 10.6667 14 11.56 14 12.6667Z" fill="#F3F3F3"/>
+                </svg>
+            </a>
+          </div>
+        </div>
+      
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#">ACCUEIL</a> <!-- Add active class -->
+            <a class="nav-item nav-link" href="#">PUBLIER UN SUNSET</a>
+            <a class="nav-item nav-link" href="#">RESéRVER UNE EXPéRIENCE</a>
+            <a class="nav-item nav-link" href="#">CONNEXION</a>
+          </div>
+        </div>
+      </nav>
+    <script src="script.js">
+    </script>
+</body>
+</html>
