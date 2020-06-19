@@ -21,7 +21,11 @@ a.nav-link:hover{
 
 @media (min-width: 991px) {
     .navbar{
-        padding-right:5em!important;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        width: 100%; /* Full width */
+      display:grid!important;
+      justify-content: right!important;
     }
 }
 

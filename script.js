@@ -15,7 +15,6 @@ function myFunction(x) {
   function MeRemove() {
     element.classList.remove("navbar-expand-lg");
     element.classList.remove("navbar-light");
-    element.classList.remove("float-right");
     element.classList.remove("navbar");
     Obj.classList.remove("navbar-toggler");
   }
@@ -23,7 +22,6 @@ function myFunction(x) {
   function MeAdd() {
     element.classList.add("navbar-expand-lg");
     element.classList.add("navbar-light");
-    element.classList.add("float-right");
     element.classList.add("navbar");
     Obj.classList.add("navbar-toggler");
   }
