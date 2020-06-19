@@ -18,6 +18,52 @@ a.nav-link.active{
 a.nav-link:hover{
     color:#FF4567!important;
 }
+/* Publication */
+.card{
+position: absolute;
+width: 350px;
+height: 210px;
+left: 0px;
+top: 0px;
+}
+
+.card-text{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  height: 11em;
+  width: 18rem;
+  border-radius: 1em!important;
+  box-shadow: 0px 3px 4px #cecece;
+}
+
+#km{
+  border: 1px solid #EDEBEB;
+  box-shadow: 0px 3px 2px #d4d2d2;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.text{
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 6px;
+  width: 10em;
+}
+
+.text-bolt{
+  font-weight: bold;
+}
 
 @media (min-width: 991px) {
     .navbar{
