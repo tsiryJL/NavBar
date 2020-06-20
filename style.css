@@ -38,14 +38,19 @@ a.nav-link:hover{
   box-shadow: 0px 3px 4px #cecece;
 }
 
-#km{
+.km{
   border: 1px solid #EDEBEB;
   box-shadow: 0px 3px 2px #d4d2d2;
-  border-radius: 1em;
+  border-radius: 3em;
   display: flex;
   justify-content: space-evenly;
+  background-color: #f9f9f9;
 }
 
+#Bigkm{
+  margin: 6px 0em 2em 0em;
+  width: 8em;
+}
 
 .text{
   font-style: normal;
@@ -58,6 +63,31 @@ a.nav-link:hover{
   color: #000000;
   margin: 6px;
   width: 10em;
+}
+
+.text-2{
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 6px;
+}
+
+
+#coms{
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin: 6px;
 }
 
 .text-bolt{
