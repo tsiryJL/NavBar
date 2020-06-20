@@ -65,6 +65,10 @@ a.nav-link:hover{
   width: 10em;
 }
 
+.p-Card{
+  padding: 6px 3px;
+}
+
 .text-2{
   font-style: normal;
   font-size: 12px;
