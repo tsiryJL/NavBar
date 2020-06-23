@@ -26,10 +26,40 @@ a.nav-link:hover{
 
 .card-1{
   height: auto;
-  width: 18rem;
+  width: 350px;
+  height: auto;
   border-radius: 1em!important;
   box-shadow: 0px 3px 4px #cecece;
   margin: 1em;
+}
+
+/* Les derniÈres publications */
+.titre-2{
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+align-items: center;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+/* Ecriture */
+color: #353434;
+}
+
+/* Explorer le sommet du monde */
+.titre-1{
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+align-items: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+/* Ecriture 2 */
+color: #F4F4F4;
 }
 
 .card-2{
@@ -46,6 +76,10 @@ a.nav-link:hover{
   display: flex;
   justify-content: space-evenly;
   background-color: #f9f9f9;
+}
+
+.cont{
+  margin: 3em 1em;
 }
 
 #Bigkm{
@@ -70,6 +104,12 @@ a.nav-link:hover{
   padding: 6px 3px;
 }
 
+#search{
+  padding:0px 1em;
+  flex: 0 0 28%;
+  margin-left:2em;
+}
+
 .text-2{
   font-style: normal;
   font-size: 12px;
@@ -83,6 +123,26 @@ a.nav-link:hover{
 }
 
 
+.logo{
+  /* logo_SUNDR_long 1 */
+width: 171px;
+height: 49px;
+left: 89px;
+top: 17px;
+background: url(image/logo.png);
+margin: 0 3em;
+}
+
+.logoResp{
+  /* cameleon_favicon 1 */
+position: absolute;
+width: 47px;
+height: 48px;
+left: 164px;
+top: 40px;
+background: url(image/logoResp.png);
+}
+
 #coms{
   font-style: normal;
   font-size: 12px;
@@ -95,6 +155,11 @@ a.nav-link:hover{
   margin: 6px;
 }
 
+#rounded-img{
+  width: 674px;
+  border-radius: 1em;
+}
+
 .text-bolt{
   font-weight: bold;
 }
@@ -105,9 +170,11 @@ a.nav-link:hover{
       top: 0; /* Position the navbar at the top of the page */
       width: 100%; /* Full width */
       display:grid!important;
+      
       justify-content: right!important;
     }
 }
+
 
 /*Version Mobile*/
 @media (max-width: 991px) {
@@ -142,4 +209,6 @@ a.nav-link:hover{
     color: #FF4567;
   }
 }
+
+
 

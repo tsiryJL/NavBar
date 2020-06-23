@@ -6,6 +6,7 @@ function myFunction(x) {
     }
   }
   var element = document.getElementById("myDIV");
+  var logo = document.getElementById("resp");
   var Obj = document.getElementById("myToggle");
   var x = window.matchMedia("(max-width: 991px)")
   myFunction(x) // Call listener function at run time
@@ -17,6 +18,8 @@ function myFunction(x) {
     element.classList.remove("navbar-light");
     element.classList.remove("navbar");
     Obj.classList.remove("navbar-toggler");
+    logo.classList.remove("logo");
+    logo.classList.add("logoResp");
   }
 
   function MeAdd() {
@@ -24,4 +27,6 @@ function myFunction(x) {
     element.classList.add("navbar-light");
     element.classList.add("navbar");
     Obj.classList.add("navbar-toggler");
+    logo.classList.add("logo");
+    logo.classList.remove("logoResp");
   }
