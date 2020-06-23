@@ -29,6 +29,7 @@ a.nav-link:hover{
   width: 18rem;
   border-radius: 1em!important;
   box-shadow: 0px 3px 4px #cecece;
+  margin: 1em;
 }
 
 .card-2{
