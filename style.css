@@ -24,30 +24,6 @@ a.nav-link:hover{
   justify-content: space-around;
 }
 
-.card-1{
-  height: auto;
-  width: 350px;
-  height: auto;
-  border-radius: 1em!important;
-  box-shadow: 0px 3px 4px #cecece;
-  margin: 1em;
-}
-
-/* Les derniÈres publications */
-.titre-2{
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 15px;
-/* identical to box height */
-align-items: center;
-text-align: center;
-letter-spacing: 2px;
-text-transform: uppercase;
-/* Ecriture */
-color: #353434;
-}
-
 /* Explorer le sommet du monde */
 .titre-1{
 font-style: normal;
@@ -62,6 +38,30 @@ text-transform: uppercase;
 color: #F4F4F4;
 }
 
+/* Les derniÈres publications */
+.titre-2{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  /* Ecriture */
+  color: #353434;
+  }
+
+.card-1{
+  height: auto;
+  width: 350px;
+  height: auto;
+  border-radius: 1em!important;
+  box-shadow: 0px 3px 4px #cecece;
+  margin: 1em;
+}
+  
 .card-2{
   height: auto;
   width: 28em;

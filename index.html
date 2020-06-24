@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-
-  <!--NavBar section-->
+  <!--#####################-->
+  <!-- Begin NavBar section-->
+  <!--#####################-->
   <header>
-    <nav id="myDIV" class="navbar navbar-expand-lg navbar-light d-flex"> <!-- create Add and remove this class on JS-->
+    <nav id="myDIV" class="navbar navbar-expand-lg navbar-light d-flex">
         <div id="myToggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     
           <div class="navbar">
@@ -45,16 +46,18 @@
         </div>
     </nav>
   </header>
+  <!-- End NavBar section-->
+
   <div class="d-flex text-center justify-content-between cont">
     <div id="search"><p class="text-left mb-5 titre-1">Explorer le sommet <br> du monde</p>
       <form>
         <div class="form-group mb-4">
           <select class="form-control" id="exampleFormControlSelect1">
             <option value="" disabled selected>Trouver un sunset</option>
+            <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
-            <option>5</option>
           </select>
         </div>
         <div class="form-group mb-4">
@@ -66,9 +69,13 @@
     <div class="col-7"><img src="image/big-img.png" id="rounded-img" alt=""></div>
   </div>
   <div class="titre-2 p-2 text-bolt">Les derniers publications</div>
+
 <!-- FaFao ty DIV ty Chris fa mise en page fotsiny io -->
 <div class="m-4">
-<!-- FaFao ty DIV ty Chris fa mise en page fotsiny io -->
+  
+  <!--#####################-->
+  <!-- Debut Card section -->
+  <!--#####################-->
   <div class="d-flex flex-wrap justify-content-center">
     <div class="card-1">
       <img class="card-img-top" src="image/image-6.png" alt="Card image cap">
@@ -149,32 +156,34 @@
         </div>
     </div>
   </div>
+ <!-- End Card section -->
 
   <!-- Grand Card section à supprimer-->
-      <section class="card-2">
-        <img class="card-img-top" src="photo-2.png" alt="Card image cap">
-
-        <div class="p-3">
-            <div class="d-flex justify-content-between col-lg-12">
-              <div>
-                <p class="text-bolt text">Adresse</p>
-                <span class="text-2">Chemin de Contre Halage <br>69150 Vaux-en-velin</span>
-              </div>
-              
-              <div id="Bigkm" class="text-bolt text km">
-                <svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.67949 0.117767C3.28587 0.117767 0.541168 3.04691 0.541168 6.66857C0.541168 11.5817 6.67949 18.8344 6.67949 18.8344C6.67949 18.8344 12.8178 11.5817 12.8178 6.66857C12.8178 3.04691 10.0731 0.117767 6.67949 0.117767ZM2.2951 6.66857C2.2951 4.08569 4.25936 1.98943 6.67961 1.98943C9.09986 1.98943 11.0641 4.08569 11.0641 6.66857C11.0641 9.36376 8.53865 13.3972 6.67961 15.9146C4.85566 13.4159 2.2951 9.33569 2.2951 6.66857ZM4.48724 6.66857C4.48724 5.37646 5.46874 4.329 6.67949 4.329C7.46271 4.329 8.18643 4.77492 8.57804 5.49879C8.96965 6.22265 8.96965 7.11449 8.57804 7.83836C8.18643 8.56223 7.46271 9.00815 6.67949 9.00815C5.46874 9.00815 4.48724 7.96068 4.48724 6.66857Z" fill="#FF4567"/>
-                  </svg>
-                <span>1,6 km</span>
-              </div> 
+  <!--
+    <section class="card-2">
+      <img class="card-img-top" src="photo-2.png" alt="Card image cap">
+      <div class="p-3">
+          <div class="d-flex justify-content-between col-lg-12">
+            <div>
+              <p class="text-bolt text">Adresse</p>
+              <span class="text-2">Chemin de Contre Halage <br>69150 Vaux-en-velin</span>
             </div>
+            
+            <div id="Bigkm" class="text-bolt text km">
+              <svg width="13" height="19" viewBox="0 0 13 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.67949 0.117767C3.28587 0.117767 0.541168 3.04691 0.541168 6.66857C0.541168 11.5817 6.67949 18.8344 6.67949 18.8344C6.67949 18.8344 12.8178 11.5817 12.8178 6.66857C12.8178 3.04691 10.0731 0.117767 6.67949 0.117767ZM2.2951 6.66857C2.2951 4.08569 4.25936 1.98943 6.67961 1.98943C9.09986 1.98943 11.0641 4.08569 11.0641 6.66857C11.0641 9.36376 8.53865 13.3972 6.67961 15.9146C4.85566 13.4159 2.2951 9.33569 2.2951 6.66857ZM4.48724 6.66857C4.48724 5.37646 5.46874 4.329 6.67949 4.329C7.46271 4.329 8.18643 4.77492 8.57804 5.49879C8.96965 6.22265 8.96965 7.11449 8.57804 7.83836C8.18643 8.56223 7.46271 9.00815 6.67949 9.00815C5.46874 9.00815 4.48724 7.96068 4.48724 6.66857Z" fill="#FF4567"/>
+                </svg>
+              <span>1,6 km</span>
+            </div> 
+          </div>
 
-            <div class="col-lg-12">
-              <p class="text-bolt text item5">Commentaire</p>
-              <span id="coms">"Nous avons passé un moment fabulleux en famille. A ne pas rater si vous visiter la région".</span>
-            </div>
-        </div>    
-      </section>
+          <div class="col-lg-12">
+            <p class="text-bolt text item5">Commentaire</p>
+            <span id="coms">"Nous avons passé un moment fabulleux en famille. A ne pas rater si vous visiter la région".</span>
+          </div>
+      </div>    
+    </section>
+  -->
 </div>
     <script src="script.js"></script>
 </body>
