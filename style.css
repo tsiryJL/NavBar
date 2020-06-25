@@ -210,6 +210,19 @@ background: url(image/logoResp.png);
   .navbar a.active {
     color: #FF4567;
   }
+  
+/*==============================*/
+/*=====Responsive ajouter=======*/
+/*==============================*/
+  #search{
+    padding:0px 1em;
+    max-width: -webkit-fill-available;
+    flex:auto;
+    margin-left: 0px;
+  }
+  #HideBg-img{
+    display: none;
+  }
 }
 
 
