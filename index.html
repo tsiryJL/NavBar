@@ -35,7 +35,9 @@
             </a>
           </div>
         </div>
-        <a id="resp" class="nav-item nav-link logo" href="#"><!-- Image Logo --></a>
+        <div id="resp" class="nav-item nav-link logo">
+          <a href="#"><!-- Image Logo --></a>
+        </div>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link" href="#">ACCUEIL</a> <!-- Add active class -->
@@ -49,9 +51,10 @@
   <!-- End NavBar section-->
 
   <div class="d-flex text-center justify-content-between cont">
-    <div id="search"><p class="text-left mb-5 titre-1">Explorer le sommet <br> du monde</p>
+    <div id="search">
+      <span class="hide"><p class="text-left mb-5 titre-1">Explorer le sommet<br> du monde</p></span>
       <form>
-        <div class="form-group mb-4">
+        <div class="form-group mb-30">
           <select class="form-control" id="exampleFormControlSelect1">
             <option value="" disabled selected>Trouver un sunset</option>
             <option>1</option>
@@ -60,7 +63,7 @@
             <option>4</option>
           </select>
         </div>
-        <div class="form-group mb-4"> 
+        <div class="form-group mb-30"> 
             <div class="input-group mb-2">
               <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Localiser ma position">
               <div class="input-group-prepend">
@@ -73,9 +76,9 @@
             </div> 
         </div>
       </form>
-      <button type="button" class="btn btn-danger w-100 text-uppercase">Rechercher</button>
+      <button type="button" id="btn-resp" class="btn btn-danger text-uppercase">Rechercher</button>
     </div>
-    <div class="col-7" id="HideBg-img"><img src="image/big-img.png" id="rounded-img" alt=""></div>
+    <div class="col-7 hide"><img src="image/big-img.png" id="rounded-img" alt=""></div>
   </div>
   <div class="titre-2 p-2 text-bolt">Les derniers publications</div>
 

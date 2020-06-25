@@ -79,7 +79,11 @@ color: #F4F4F4;
 }
 
 .cont{
-  margin: 3em 1em;
+  margin: 30px 30px 55px 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px!important;
 }
 
 #Bigkm{
@@ -112,6 +116,10 @@ color: #F4F4F4;
   margin-left:2em;
 }
 
+#btn-resp{
+  width:100%;
+}
+
 .text-2{
   font-style: normal;
   font-size: 12px;
@@ -137,12 +145,14 @@ margin: 0 3em;
 
 .logoResp{
   /* cameleon_favicon 1 */
-position: absolute;
 width: 47px;
 height: 48px;
 left: 164px;
-top: 40px;
 background: url(image/logoResp.png);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+margin-top:40px;
 }
 
 #coms{
@@ -220,8 +230,14 @@ background: url(image/logoResp.png);
     flex:auto;
     margin-left: 0px;
   }
-  #HideBg-img{
+  .hide{
     display: none;
+  }
+  #btn-resp{
+    width: 50%;
+  }
+  .form-control{
+    margin-bottom: 30px;
   }
 }
 
